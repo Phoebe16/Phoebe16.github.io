@@ -6,12 +6,37 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <style rel="stylesheet">
+        .wrapper {
+            position: relative;
+        }
         .bg {
             width: 100%;
+        }
+        .title {
+            display: block;
+            position: absolute;
+            top: 40%;
+            left: 50%;
+            width: 200px;
+            height: 60px;
+            line-height: 60px;
+            margin-top: -30px;
+            margin-left: -100px;
+            border: 1px solid #485;
+            text-align: center;
+            font-size: 24px;
+            text-decoration: none;
+            color: #000;
+        }
+        .title:hover {
+            color: #f38432;
         }
     </style>
 </head>
 <body>
-    <img src="./image/bg.png" alt="Phoebe16" class="bg">
+    <div class="wrapper">
+        <img src="./image/bg.png" alt="Phoebe16" class="bg">
+        <a class="title" href="./page.html">进入博客</a>
+    </div>
 </body>
 </html>
